@@ -31,7 +31,7 @@ public class Email {
             }
         }
         else{
-            System.out.println("Your Current Password is not in our database");
+            System.out.println("The given password does not match current password!");
         }
         //Change password only if the oldPassword is equal to current password and the new password meets all of the following:
         // 1. It contains at least 8 characters
